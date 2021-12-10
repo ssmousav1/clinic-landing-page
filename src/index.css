@@ -1,13 +1,51 @@
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Fat.woff") format('woff');
+  font-weight: 800;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Heavy.woff") format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Bold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Medium.woff") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Regular.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./assets/fonts/YekanBakh-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: yekanfn;
+  src: url("./assets/fonts/YekanBakh-Bold-Fn.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: yekanfn;
+  src: url("./assets/fonts/YekanBakh-Regular-Fn.woff") format("woff");
+  font-weight: normal;
+}
+body{
+  font-family: yekan !important;
+  /* direction: rtl; */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
