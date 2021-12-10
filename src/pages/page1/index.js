@@ -33,6 +33,7 @@ const Page1 = () => {
             u-layout-wrap
             u-layout-wrap-1
           "
+          style={{marginTop:'0px'}}
           >
             <div className="u-layout">
               <div className="u-layout-row">
@@ -94,7 +95,7 @@ const Page1 = () => {
                       u-text
                       u-text-3
                     "
-                    style={{fontSize:'33px'}}
+                      style={{ fontSize: '33px' }}
                     >
                       <a href="tel:867-873-2775">کلینیک شهید فلاحی</a>
                     </h2>
@@ -748,7 +749,22 @@ const Page1 = () => {
                       u-image-circle
                       u-image-1
                     "
-                    ></div>
+                    >
+                      <img
+                        style={{ marginTop: '0px' }}
+                        alt=''
+                        className="
+                          u-align-left
+                          u-border-no-bottom
+                          u-border-no-left
+                          u-border-no-right
+                          u-border-no-top
+                          u-image
+                          u-image-circle
+                          u-image-2"
+                        src={image3}
+                      />
+                    </div>
                     <h5
                       className="
                       u-align-center-sm
@@ -798,7 +814,21 @@ const Page1 = () => {
                       u-image-circle
                       u-image-2
                     "
-                    ></div>
+                    >
+                      <img
+                        style={{ marginTop: '0px' }}
+                        alt=''
+                        className="
+                      u-align-left
+                      u-border-no-bottom
+                      u-border-no-left
+                      u-border-no-right
+                      u-border-no-top
+                      u-image
+                      u-image-circle
+                      u-image-2
+                    " src={image2} />
+                    </div>
                     <h5
                       className="
                       u-align-center-lg
@@ -849,7 +879,20 @@ const Page1 = () => {
                       u-image-circle
                       u-image-3
                     "
-                    ></div>
+                    >
+                    <img
+                      style={{ marginTop: '0px' }}
+                      alt=''
+                      className="
+                    u-align-left
+                    u-border-no-bottom
+                    u-border-no-left
+                    u-border-no-right
+                    u-border-no-top
+                    u-image
+                    u-image-circle
+                    u-image-2
+                  " src={image4} /></div>
                     <h5
                       className="
                       u-align-center-lg
@@ -940,26 +983,6 @@ const Page1 = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="u-backlink u-clearfix u-grey-80">
-        <a
-          className="u-link"
-          href="https://nicepage.com/website-templates"
-          target="_blank"
-        >
-          <span>Website Templates</span>
-        </a>
-        <p className="u-text">
-          <span>created with</span>
-        </p>
-        <a
-          className="u-link"
-          href="https://nicepage.com/html-website-builder"
-          target="_blank"
-        >
-          <span>HTML Layout generator</span> </a
-        >.
       </section>
     </>
   )
