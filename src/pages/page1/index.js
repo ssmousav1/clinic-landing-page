@@ -11,6 +11,12 @@ import image7 from '../../assets/images/beddb6fb8dcd524b10069485fc19b771.jpeg'
 import image8 from '../../assets/images/33a55923f3cf35828416a97614a6b345.jpeg'
 import image9 from '../../assets/images/08b64714725825368eee66131fc6c1a4.jpeg'
 import image10 from '../../assets/images/76fab2972f81f9b7b0ca7b8eca061d37.jpeg'
+import implantImg from '../../assets/images/a1.PNG'
+import BracestImg from '../../assets/images/a2.PNG'
+import WhiteningImg from '../../assets/images/a3.PNG'
+import CrownsImg from '../../assets/images/a4.PNG'
+import PreventionImg from '../../assets/images/a5.PNG'
+import CosmeticImg from '../../assets/images/a6.PNG'
 
 const Page1 = () => {
   return (
@@ -88,6 +94,7 @@ const Page1 = () => {
                       u-text
                       u-text-3
                     "
+                    style={{fontSize:'33px'}}
                     >
                       <a href="tel:867-873-2775">کلینیک شهید فلاحی</a>
                     </h2>
@@ -237,7 +244,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -245,8 +251,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-1
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={implantImg} />
                         </span>
                         <h3
                           className="
@@ -257,7 +264,7 @@ const Page1 = () => {
                           u-text-2
                         "
                         >
-                          Dental Implant
+                          ایمپلت
                         </h3>
                         <p className="u-text u-text-3">
                           Sample text. Lorem ipsum dolor sit amet, consectetur
@@ -282,7 +289,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -290,8 +296,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-2
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={BracestImg} />
                         </span>
                         <h3
                           className="
@@ -302,7 +309,7 @@ const Page1 = () => {
                           u-text-4
                         "
                         >
-                          Braces
+                          ارتودنسی
                         </h3>
                         <p className="u-text u-text-5">
                           Sample text. Lorem ipsum dolor sit amet, consectetur
@@ -328,7 +335,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -336,8 +342,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-3
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={WhiteningImg} />
                         </span>
                         <h3
                           className="
@@ -348,7 +355,7 @@ const Page1 = () => {
                           u-text-6
                         "
                         >
-                          Teeth Whitening
+                          جرم گیری
                         </h3>
                         <p className="u-text u-text-7">
                           Sample text. Lorem ipsum dolor sit amet, consectetur
@@ -378,7 +385,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -386,8 +392,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-4
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={CrownsImg} />
                         </span>
                         <h3
                           className="
@@ -423,7 +430,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -431,8 +437,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-5
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={PreventionImg} />
                         </span>
                         <h3
                           className="
@@ -469,7 +476,6 @@ const Page1 = () => {
                       >
                         <span
                           className="
-                          u-border-3
                           u-border-palette-3-light-1
                           u-icon
                           u-icon-circle
@@ -477,8 +483,9 @@ const Page1 = () => {
                           u-text-palette-3-light-1
                           u-icon-6
                         "
+                          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
                         >
-                          {/* TODO */}
+                          <img style={{ width: '120px' }} src={CosmeticImg} />
                         </span>
                         <h3
                           className="
@@ -489,7 +496,7 @@ const Page1 = () => {
                           u-text-12
                         "
                         >
-                          Cosmetic Dentistry
+                          زیبایی
                         </h3>
                         <p className="u-text u-text-13">
                           Sample text. Lorem ipsum dolor sit amet, consectetur
@@ -504,7 +511,7 @@ const Page1 = () => {
           </div>
         </div>
       </section>
-      <section className="u-clearfix u-image u-shading u-section-3" id="sec-c798">
+      <section style={{ backgroundImage: `url(${image1})` }} className="u-clearfix u-image u-shading u-section-3" id="sec-c798">
         <div className="u-clearfix u-sheet u-sheet-1">
           <div className="u-align-center u-container-style u-group u-group-1">
             <div className="u-container-layout u-valign-middle u-container-layout-1">
