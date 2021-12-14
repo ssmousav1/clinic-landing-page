@@ -1,9 +1,9 @@
 import React from "react";
 import './index.css'
 import './nicepage.css'
-import image1 from '../../assets/images/sd-min.jpg'
+import image1 from '../../assets/images/pc2.jpg'
 import image2 from '../../assets/images/bg.jpg'
-import image3 from '../../assets/images/default-logo.png'
+import image3 from '../../assets/images/arme2.png'
 import image4 from '../../assets/images/2e69aabe-c496-6658-d688-2612508a6b44.jpg'
 import image5 from '../../assets/images/min.jpg'
 import image6 from '../../assets/images/s.jpg'
@@ -21,7 +21,7 @@ import CosmeticImg from '../../assets/images/a6.PNG'
 const Page2 = () => {
   return (
     <>
-      <header className="u-clearfix u-header u-header" id="sec-517a" style={{ position: 'absolute', top: '0', right: '0', zIndex: '20' }}>
+      <header className="u-clearfix u-header u-header" id="sec-517a" style={{ position: 'absolute', top: '0', right: '160', zIndex: '20' }}>
         <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <a href="https://nicepage.com" className="u-image u-logo u-image-1">
             <img
@@ -268,7 +268,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-1"
                   >
-                    Consultation
+                    دندانپزشکی
                   </h3>
                   <p className="u-text u-text-2">by professional</p>
                 </div>
@@ -328,7 +328,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-3"
                   >
-                    Diagnosis
+                    آزمایشگاه
                   </h3>
                   <p className="u-text u-text-4">accurate approach</p>
                 </div>
@@ -377,7 +377,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-5"
                   >
-                    Treatment
+                    رادیولوژی
                   </h3>
                   <p className="u-text u-text-6">individual approach</p>
                 </div>
@@ -455,7 +455,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-7"
                   >
-                    Pregnancy care
+                    فیزیوتراپی
                   </h3>
                   <p className="u-text u-text-8">safety and carefully</p>
                 </div>
@@ -515,7 +515,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-9"
                   >
-                    Pediatric
+                    لابراتوار
                   </h3>
                   <p className="u-text u-text-10">high-quality kids care</p>
                 </div>
@@ -567,7 +567,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-11"
                   >
-                    Online Help
+                  بخش زنان
                   </h3>
                   <p className="u-text u-text-12">24/7</p>
                 </div>
@@ -951,310 +951,6 @@ const Page2 = () => {
           </div>
         </div>
       </section>
-      <section
-        id="carousel_0a6e"
-        className="u-carousel u-slide u-block-ef98-1"
-        data-u-ride="carousel"
-        data-interval="5000"
-      >
-        <ol className="u-absolute-hcenter u-carousel-indicators u-block-ef98-2">
-          <li
-            data-u-target="#carousel_0a6e"
-            data-u-slide-to="0"
-            className="u-active u-grey-30"
-          ></li>
-          <li
-            data-u-target="#carousel_0a6e"
-            className="u-grey-30"
-            data-u-slide-to="1"
-          ></li>
-        </ol>
-        <div className="u-carousel-inner" role="listbox">
-          <div
-            className="
-            u-active
-            u-align-center
-            u-carousel-item
-            u-clearfix
-            u-palette-1-base
-            u-section-6-1
-          "
-          >
-            <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-              <h2 className="u-custom-font u-font-playfair-display u-text u-text-1">
-                What people say
-              </h2>
-              <div className="u-container-style u-group u-group-1">
-                <div className="u-container-layout u-container-layout-1">
-                  <div
-                    alt=""
-                    className="u-align-left u-image u-image-circle u-image-1"
-                  ></div>
-                  <p
-                    className="
-                    u-align-center u-large-text u-text u-text-variant u-text-2
-                  "
-                  >
-                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices
-                    justo. Mauris efficitur, mauris in auctor euismod, quam elit
-                    ultrices urna, eget eleifend arcu risus id metus. Maecenas ex
-                    enim, mattis eu velit vitae, blandit mattis sapien. Sed
-                    aliquam leo et semper vestibulum."
-                  </p>
-                  <h5
-                    className="
-                    u-align-center
-                    u-custom-font
-                    u-font-playfair-display
-                    u-text
-                    u-text-3
-                  "
-                  >
-                    Frank Kinney
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="u-carousel-item u-clearfix u-palette-1-base u-section-6-2">
-            <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-              <div className="u-container-style u-group u-group-1">
-                <div className="u-container-layout u-container-layout-1">
-                  <div
-                    alt=""
-                    className="u-align-left u-image u-image-circle u-image-1"
-                  ></div>
-                  <p
-                    className="
-                    u-align-center u-large-text u-text u-text-variant u-text-1
-                  "
-                  >
-                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices
-                    justo. Mauris efficitur, mauris in auctor euismod, quam elit
-                    ultrices urna, eget eleifend arcu risus id metus. Maecenas ex
-                    enim, mattis eu velit vitae, blandit mattis sapien. Sed
-                    aliquam leo et semper vestibulum."
-                  </p>
-                  <h5
-                    className="
-                    u-align-center
-                    u-custom-font
-                    u-font-playfair-display
-                    u-text
-                    u-text-2
-                  "
-                  >
-                    Marry Loo
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a
-          className="
-          u-absolute-vcenter
-          u-carousel-control
-          u-carousel-control-prev
-          u-text-body-color
-          u-block-ef98-3
-        "
-          href="#carousel_0a6e"
-          role="button"
-          data-u-slide="prev"
-        >
-          <span aria-hidden="true">
-            <svg viewBox="0 0 477.175 477.175">
-              <path
-                d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"
-              ></path>
-            </svg>
-          </span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="
-          u-absolute-vcenter
-          u-carousel-control
-          u-carousel-control-next
-          u-text-body-color
-          u-block-ef98-4
-        "
-          href="#carousel_0a6e"
-          role="button"
-          data-u-slide="next"
-        >
-          <span aria-hidden="true">
-            <svg viewBox="0 0 477.175 477.175">
-              <path
-                d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
-                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"
-              ></path>
-            </svg>
-          </span>
-          <span className="sr-only">Next</span>
-        </a>
-      </section>
-      <section className="u-clearfix u-white u-section-7" id="carousel_a59a">
-        <img
-          // src="#"
-          alt=""
-          className="u-expanded-width u-image u-image-default u-image-1"
-        />
-        <div className="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div className="u-layout">
-            <div className="u-layout-row">
-              <div
-                className="
-                u-container-style
-                u-layout-cell
-                u-left-cell
-                u-size-20-xl
-                u-size-23-lg
-                u-size-24-md
-                u-size-24-sm
-                u-size-24-xs
-                u-layout-cell-1
-              "
-              >
-                <div className="u-container-layout u-container-layout-1">
-                  <h2
-                    className="u-custom-font u-font-playfair-display u-text u-text-1"
-                  >
-                    ویزیت نوبت دهی
-                  </h2>
-                </div>
-              </div>
-              <div
-                className="
-                u-container-style
-                u-layout-cell
-                u-right-cell
-                u-size-36-md
-                u-size-36-sm
-                u-size-36-xs
-                u-size-37-lg
-                u-size-40-xl
-                u-layout-cell-2
-              "
-              >
-                <div className="u-container-layout u-container-layout-2">
-                  <div className="u-form u-form-1">
-                    <form
-                      action="#"
-                      method="POST"
-                      className="
-                      u-clearfix u-form-spacing-20 u-form-vertical u-inner-form
-                    "
-                      //style="padding: 0"
-                      source="custom"
-                      name="form"
-                    >
-                      <div className="u-form-group u-form-name u-form-group-1">
-                        <label
-                          for="name-a468"
-                          className="u-form-control-hidden u-label"
-                        >Name</label
-                        >
-                        <input
-                          type="text"
-                          placeholder="Enter your Name"
-                          id="name-a468"
-                          name="name"
-                          className="
-                          u-border-1
-                          u-border-grey-30
-                          u-input
-                          u-input-rectangle
-                          u-white
-                        "
-                          required=""
-                        />
-                      </div>
-                      <div className="u-form-email u-form-group u-form-group-2">
-                        <label
-                          for="email-a468"
-                          className="u-form-control-hidden u-label"
-                        >Email</label
-                        >
-                        <input
-                          type="email"
-                          placeholder="Enter a valid email address"
-                          id="email-a468"
-                          name="email"
-                          className="
-                          u-border-1
-                          u-border-grey-30
-                          u-input
-                          u-input-rectangle
-                          u-white
-                        "
-                          required=""
-                        />
-                      </div>
-                      <div className="u-form-group u-form-message u-form-group-3">
-                        <label
-                          for="message-a468"
-                          className="u-form-control-hidden u-label"
-                        >Message</label
-                        >
-                        <textarea
-                          placeholder="Enter your message"
-                          rows="4"
-                          cols="50"
-                          id="message-a468"
-                          name="message"
-                          className="
-                          u-border-1
-                          u-border-grey-30
-                          u-input
-                          u-input-rectangle
-                          u-white
-                        "
-                          required=""
-                        ></textarea>
-                      </div>
-                      <div
-                        className="
-                        u-align-left u-form-group u-form-submit u-form-group-4
-                      "
-                      >
-                        <a
-                          href="#"
-                          className="
-                          u-btn
-                          u-btn-round
-                          u-btn-submit
-                          u-button-style
-                          u-radius-30
-                          u-btn-1
-                        "
-                        >Submit</a
-                        >
-                        <input
-                          type="submit"
-                          value="submit"
-                          className="u-form-control-hidden"
-                        />
-                      </div>
-                      <div className="u-form-send-message u-form-send-success">
-                        Thank you! Your message has been sent.
-                      </div>
-                      <div className="u-form-send-error u-form-send-message">
-                        Unable to send your message. Please fix errors then try
-                        again.
-                      </div>
-                      <input type="hidden" value="" name="recaptchaResponse" />
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <footer
         className="u-align-center u-clearfix u-footer u-grey-80 u-footer"
         id="sec-8c91"
@@ -1266,21 +962,6 @@ const Page2 = () => {
           </p>
         </div>
       </footer>
-      <section className="u-backlink u-clearfix u-grey-80">
-        <a
-          className="u-link"
-          href="https://nicepage.com/website-templates"
-          target="_blank"
-        >
-          <span>Website Templates</span>
-        </a>
-        <p className="u-text">
-          <span>created with</span>
-        </p>
-        <a className="u-link" href="" target="_blank">
-          <span>Website Builder Software</span> </a
-        >.
-      </section>
     </>
   )
 }
