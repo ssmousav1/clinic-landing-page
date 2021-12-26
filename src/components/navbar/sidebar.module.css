@@ -1,0 +1,12 @@
+.sidebarContainer{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  gap: 20px;
+  z-index: 1;
+  background-color: #f2f2f2;
+}
+
+.sidebarItem {
+  cursor: pointer;
+}
