@@ -9,22 +9,16 @@ import image5 from '../../assets/images/min.jpg'
 import image6 from '../../assets/images/s.jpg'
 import image7 from '../../assets/images/1.jpg'
 import image8 from '../../assets/images/2.jpg'
-import image9 from '../../assets/images/08b64714725825368eee66131fc6c1a4.jpeg'
-import image10 from '../../assets/images/76fab2972f81f9b7b0ca7b8eca061d37.jpeg'
-import implantImg from '../../assets/images/a1.PNG'
-import BracestImg from '../../assets/images/a2.PNG'
-import WhiteningImg from '../../assets/images/a3.PNG'
-import CrownsImg from '../../assets/images/a4.PNG'
-import PreventionImg from '../../assets/images/a5.PNG'
-import CosmeticImg from '../../assets/images/a6.PNG'
 
 const Page2 = () => {
   return (
     <>
-      <header className="u-clearfix u-header u-header" id="sec-517a" style={{ position: 'absolute', top: '0', right: '160', zIndex: '20' }}>
-        <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-          <a href="https://nicepage.com" className="u-image u-logo u-image-1">
-            <img
+      <header className="u-clearfix u-header u-header" id="sec-517a" style={{ position: 'absolute', width: '100px', top: '100px', left: '200px', right: '160', zIndex: '20' }}>
+        <div className="u-clearfix u-sheet u-valign-middle u-sheet-1" style={{
+          width: '100px'
+        }}>
+          < a href="https://nicepage.com" className="u-image u-logo u-image-1" >
+            <img alt=''
               src={image3}
               className="u-logo-image u-logo-image-1"
             />
@@ -32,9 +26,8 @@ const Page2 = () => {
           <nav className="u-menu u-menu-dropdown u-offcanvas u-menu-1">
             <div
               className="menu-collapse"
-            //style="font-size: 1rem; letter-spacing: 0px"
             >
-              <a
+              <div
                 className="
                 u-button-style
                 u-custom-left-right-menu-spacing
@@ -44,7 +37,6 @@ const Page2 = () => {
                 u-text-active-palette-1-base
                 u-text-hover-palette-2-base
               "
-                href="#"
               >
                 <svg>
                   <use
@@ -69,7 +61,7 @@ const Page2 = () => {
                     </symbol>
                   </defs>
                 </svg>
-              </a>
+              </div>
             </div>
             <div className="u-nav-container">
               <ul className="u-nav u-unstyled u-nav-1">
@@ -123,7 +115,7 @@ const Page2 = () => {
             </div>
           </nav>
         </div>
-      </header>
+      </header >
       <section
         className="u-align-center u-clearfix u-image u-section-1"
         id="carousel_49eb"
@@ -567,7 +559,7 @@ const Page2 = () => {
                   <h3
                     className="u-custom-font u-font-playfair-display u-text u-text-11"
                   >
-                  بخش زنان
+                    بخش زنان
                   </h3>
                   <p className="u-text u-text-12">24/7</p>
                 </div>
@@ -637,7 +629,7 @@ const Page2 = () => {
           <div className="u-clearfix u-layout-wrap u-layout-wrap-1">
             <div className="u-gutter-0 u-layout">
               <div className="u-layout-row">
-                <img
+                <img alt=''
                   className="
                   u-align-left
                   u-container-style
@@ -763,7 +755,7 @@ const Page2 = () => {
                   </h6>
                 </div>
               </div>
-              <img src={image5}
+              <img alt='' src={image5}
                 className="
                 u-container-style
                 u-image
@@ -821,7 +813,7 @@ const Page2 = () => {
                     u-container-layout-1
                   "
                   >
-                    <img
+                    <img alt=''
                       src={image8}
                       alt=""
                       className="
@@ -869,7 +861,7 @@ const Page2 = () => {
                     u-container-layout-2
                   "
                   >
-                    <img
+                    <img alt=''
                       src={image7}
                       alt=""
                       className="
@@ -918,7 +910,7 @@ const Page2 = () => {
                     u-container-layout-3
                   "
                   >
-                    <img
+                    <img alt=''
                       alt=""
                       className="
                       u-align-left
