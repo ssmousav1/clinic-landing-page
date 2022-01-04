@@ -4,13 +4,12 @@ import styles from './sidebar.module.css';
 
 
 const Sidebar = () => {
-
   return (
     <nav className={styles.sidebarContainer}>
-      <Link className={styles.sidebarItem} to="/lab">آزمایشگاه</Link>
-      <Link className={styles.sidebarItem} to="/pt">فیزیوتراپی</Link>
-      <Link className={styles.sidebarItem} to="/dentist">دندانپزشکی</Link>
-      <Link className={styles.sidebarItem} to="/">صفحه نخست</Link>
+      <div className={styles.sidebarItem} onClick={() => { window.location.replace(`${window.location.origin}/lab`) }}>آزمایشگاه</div>
+      <div className={styles.sidebarItem} onClick={() => { window.location.replace(`${window.location.origin}/pt`) }}>فیزیوتراپی</div>
+      <div className={styles.sidebarItem} onClick={() => { window.location.replace(`${window.location.origin}/dentist`) }}>دندانپزشکی</div>
+      <div className={styles.sidebarItem} onClick={() => { window.location.replace(`${window.location.origin}/`) }}>صفحه نخست</div>
     </nav>
   )
 }
